@@ -1,0 +1,183 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:2:1-70:12
+MERGED from [:cloudpossdkV1.6.2.1_Standard:] /home/jeff/.gradle/caches/transforms-2/files-2.1/dab3cd3f031d8ae1ff72791a75aa1690/cloudpossdkV1.6.2.1_Standard/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.core:core-ktx:1.6.0] /home/jeff/.gradle/caches/transforms-2/files-2.1/a8ff9d5115cdd6324ff846854387299c/core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.core:core:1.6.0] /home/jeff/.gradle/caches/transforms-2/files-2.1/9656afbb6bfac7c4743d6f843cfcdad6/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/jeff/.gradle/caches/transforms-2/files-2.1/36a7d89105143a9b6f298490455793d1/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/jeff/.gradle/caches/transforms-2/files-2.1/98938c5d373009026fc25b160390159b/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/jeff/.gradle/caches/transforms-2/files-2.1/fc4c54e6870e66111188edfa035f0c67/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:2:1-70:12
+	package
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:3:5-57
+		INJECTED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:2:1-70:12
+		INJECTED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:2:1-70:12
+		INJECTED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.CLOUDPOS_CLONESCREEN
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.CLOUDPOS_PRINTER_ADAPTER
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:12:5-83
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:12:22-80
+uses-permission#android.permission.CLOUDPOS_PRINTER
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:14:22-72
+uses-permission#android.permission.CLOUDPOS_MSR
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:16:5-70
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:16:22-68
+uses-permission#android.permission.CLOUDPOS_CONTACTLESS_CARD
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:18:5-83
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:18:22-81
+uses-permission#android.permission.CLOUDPOS_SMARTCARD
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:20:22-74
+uses-permission#android.permission.CLOUDPOS_SERIAL
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:22:5-74
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:22:22-71
+uses-permission#android.permission.CLOUDPOS_LED
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:24:5-71
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:24:22-68
+uses-permission#android.permission.CLOUDPOS_CUSTOMER_DISPLAY
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:27:5-84
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:27:22-81
+uses-permission#android.permission.CLOUDPOS_PIN_GET_PIN_BLOCK
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:30:5-84
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:30:22-82
+uses-permission#android.permission.CLOUDPOS_PIN_MAC
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:31:5-75
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:31:22-72
+uses-permission#android.permission.CLOUDPOS_PIN_ENCRYPT_DATA
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:32:5-83
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:32:22-81
+uses-permission#android.permission.CLOUDPOS_PIN_UPDATE_USER_KEY
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:33:5-86
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:33:22-84
+uses-permission#android.permission.CLOUDPOS_PIN_UPDATE_MASTER_KEY
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:34:5-88
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:34:22-86
+uses-permission#android.permission.CLOUDPOS_IDCard
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:37:5-73
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:37:22-71
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:39:5-78
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:39:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:41:5-67
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:41:22-64
+uses-permission#android.permission.CLOUDPOS_MONEYBOX
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:44:5-75
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:44:22-73
+uses-permission#android.permission.CLOUDPOS_FINGERPRINT
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:46:5-78
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:46:22-76
+uses-permission#android.permission.CLOUDPOS_SIGNATURE
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:48:5-76
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:48:22-74
+uses-permission#android.permission.CLOUDPOS_SAFE_MODULE
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:50:5-79
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:50:22-76
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:52:5-78
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:52:22-75
+application
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:53:5-68:19
+MERGED from [androidx.core:core:1.6.0] /home/jeff/.gradle/caches/transforms-2/files-2.1/9656afbb6bfac7c4743d6f843cfcdad6/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /home/jeff/.gradle/caches/transforms-2/files-2.1/9656afbb6bfac7c4743d6f843cfcdad6/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/jeff/.gradle/caches/transforms-2/files-2.1/98938c5d373009026fc25b160390159b/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/jeff/.gradle/caches/transforms-2/files-2.1/98938c5d373009026fc25b160390159b/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /home/jeff/.gradle/caches/transforms-2/files-2.1/9656afbb6bfac7c4743d6f843cfcdad6/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:57:9-41
+	android:icon
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:56:9-45
+	android:allowBackup
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:55:9-35
+	android:theme
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:58:9-40
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:54:9-68
+activity#com.cloudpos.androidmvcmodel.MainActivity
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:59:9-67:20
+	android:label
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:61:13-45
+	android:exported
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:61:46-69
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:60:13-69
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:62:13-66:29
+action#android.intent.action.MAIN
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:63:17-69
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:63:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:65:17-77
+	android:name
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:65:27-74
+uses-sdk
+INJECTED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml
+INJECTED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml
+MERGED from [:cloudpossdkV1.6.2.1_Standard:] /home/jeff/.gradle/caches/transforms-2/files-2.1/dab3cd3f031d8ae1ff72791a75aa1690/cloudpossdkV1.6.2.1_Standard/AndroidManifest.xml:7:5-9:41
+MERGED from [:cloudpossdkV1.6.2.1_Standard:] /home/jeff/.gradle/caches/transforms-2/files-2.1/dab3cd3f031d8ae1ff72791a75aa1690/cloudpossdkV1.6.2.1_Standard/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.core:core-ktx:1.6.0] /home/jeff/.gradle/caches/transforms-2/files-2.1/a8ff9d5115cdd6324ff846854387299c/core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /home/jeff/.gradle/caches/transforms-2/files-2.1/a8ff9d5115cdd6324ff846854387299c/core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core:1.6.0] /home/jeff/.gradle/caches/transforms-2/files-2.1/9656afbb6bfac7c4743d6f843cfcdad6/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /home/jeff/.gradle/caches/transforms-2/files-2.1/9656afbb6bfac7c4743d6f843cfcdad6/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/jeff/.gradle/caches/transforms-2/files-2.1/36a7d89105143a9b6f298490455793d1/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/jeff/.gradle/caches/transforms-2/files-2.1/36a7d89105143a9b6f298490455793d1/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/jeff/.gradle/caches/transforms-2/files-2.1/98938c5d373009026fc25b160390159b/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/jeff/.gradle/caches/transforms-2/files-2.1/98938c5d373009026fc25b160390159b/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/jeff/.gradle/caches/transforms-2/files-2.1/fc4c54e6870e66111188edfa035f0c67/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/jeff/.gradle/caches/transforms-2/files-2.1/fc4c54e6870e66111188edfa035f0c67/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml
+INJECTED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml
+		ADDED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml
+		INJECTED from /home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml

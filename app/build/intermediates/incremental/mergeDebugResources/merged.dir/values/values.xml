@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="nestedScrollViewStyle"/>
+    <color name="BLACK">#000000</color>
+    <color name="BLUE">#0000FF</color>
+    <color name="GRAY">#8A8A8A</color>
+    <color name="GREEN">#00FF00</color>
+    <color name="ORANGE">#FFA500</color>
+    <color name="RED">#FF0000</color>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="androidx_core_ripple_material_light">#1f000000</color>
+    <color name="androidx_core_secondary_text_default_material_light">#8a000000</color>
+    <color name="background">#F3F3F3</color>
+    <color name="bg_head">#e9e9e9</color>
+    <color name="bg_head_2">#e9e9e9</color>
+    <color name="bg_icon">#41FFFFFF</color>
+    <color name="bg_main">#f8f8f8</color>
+    <color name="bg_sub_head">#00aeef</color>
+    <color name="btn_back">#00aeef</color>
+    <color name="btn_back_failed">#88FF0000</color>
+    <color name="btn_back_install">#ee00FF00</color>
+    <color name="btn_default">#FF1CACE2</color>
+    <color name="btn_install">#a0ea00</color>
+    <color name="btn_press">#FF0859DA</color>
+    <color name="btn_unable">#9b9b9b</color>
+    <color name="btn_uninstall">#f39000</color>
+    <color name="item_pressed">#effbff</color>
+    <color name="lv_row_bg_gray_default">#D1D1D1</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="stroke_1">#b1b1b1</color>
+    <color name="stroke_2">#ff8800</color>
+    <color name="transparent">#00000000</color>
+    <color name="txt_1">#575757</color>
+    <color name="txt_color">#333333</color>
+    <color name="txt_color_2">#737373</color>
+    <color name="txt_color_3">#333333</color>
+    <color name="txt_color_4">#bdbdbd</color>
+    <color name="txt_color_head">#292929</color>
+    <color name="txt_detail_tag">#00aeef</color>
+    <color name="txt_failed"> #f1443c</color>
+    <color name="txt_optional">#333333</color>
+    <color name="txt_required">#00aeef</color>
+    <color name="txt_required_silence">#ef5851</color>
+    <color name="txt_success">#0b9573</color>
+    <color name="weibo_listtab_off">#8d8d8d</color>
+    <color name="white">#ffffff</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
+    <dimen name="compat_button_inset_vertical_material">6dp</dimen>
+    <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
+    <dimen name="compat_button_padding_vertical_material">4dp</dimen>
+    <dimen name="compat_control_corner_material">2dp</dimen>
+    <dimen name="compat_notification_large_icon_max_height">320dp</dimen>
+    <dimen name="compat_notification_large_icon_max_width">320dp</dimen>
+    <dimen name="notification_action_icon_size">32dp</dimen>
+    <dimen name="notification_action_text_size">13sp</dimen>
+    <dimen name="notification_big_circle_margin">12dp</dimen>
+    <dimen name="notification_content_margin_start">8dp</dimen>
+    <dimen name="notification_large_icon_height">64dp</dimen>
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <dimen name="notification_main_column_padding_top">10dp</dimen>
+    <dimen name="notification_media_narrow_margin">@dimen/notification_content_margin_start</dimen>
+    <dimen name="notification_right_icon_size">16dp</dimen>
+    <dimen name="notification_right_side_padding_top">2dp</dimen>
+    <dimen name="notification_small_icon_background_padding">3dp</dimen>
+    <dimen name="notification_small_icon_size_as_large">24dp</dimen>
+    <dimen name="notification_subtext_size">13sp</dimen>
+    <dimen name="notification_top_pad">10dp</dimen>
+    <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <item name="accessibility_action_clickable_span" type="id"/>
+    <item name="accessibility_custom_action_0" type="id"/>
+    <item name="accessibility_custom_action_1" type="id"/>
+    <item name="accessibility_custom_action_10" type="id"/>
+    <item name="accessibility_custom_action_11" type="id"/>
+    <item name="accessibility_custom_action_12" type="id"/>
+    <item name="accessibility_custom_action_13" type="id"/>
+    <item name="accessibility_custom_action_14" type="id"/>
+    <item name="accessibility_custom_action_15" type="id"/>
+    <item name="accessibility_custom_action_16" type="id"/>
+    <item name="accessibility_custom_action_17" type="id"/>
+    <item name="accessibility_custom_action_18" type="id"/>
+    <item name="accessibility_custom_action_19" type="id"/>
+    <item name="accessibility_custom_action_2" type="id"/>
+    <item name="accessibility_custom_action_20" type="id"/>
+    <item name="accessibility_custom_action_21" type="id"/>
+    <item name="accessibility_custom_action_22" type="id"/>
+    <item name="accessibility_custom_action_23" type="id"/>
+    <item name="accessibility_custom_action_24" type="id"/>
+    <item name="accessibility_custom_action_25" type="id"/>
+    <item name="accessibility_custom_action_26" type="id"/>
+    <item name="accessibility_custom_action_27" type="id"/>
+    <item name="accessibility_custom_action_28" type="id"/>
+    <item name="accessibility_custom_action_29" type="id"/>
+    <item name="accessibility_custom_action_3" type="id"/>
+    <item name="accessibility_custom_action_30" type="id"/>
+    <item name="accessibility_custom_action_31" type="id"/>
+    <item name="accessibility_custom_action_4" type="id"/>
+    <item name="accessibility_custom_action_5" type="id"/>
+    <item name="accessibility_custom_action_6" type="id"/>
+    <item name="accessibility_custom_action_7" type="id"/>
+    <item name="accessibility_custom_action_8" type="id"/>
+    <item name="accessibility_custom_action_9" type="id"/>
+    <item name="line1" type="id"/>
+    <item name="line3" type="id"/>
+    <item name="tag_accessibility_actions" type="id"/>
+    <item name="tag_accessibility_clickable_spans" type="id"/>
+    <item name="tag_accessibility_heading" type="id"/>
+    <item name="tag_accessibility_pane_title" type="id"/>
+    <item name="tag_on_apply_window_listener" type="id"/>
+    <item name="tag_on_receive_content_listener" type="id"/>
+    <item name="tag_on_receive_content_mime_types" type="id"/>
+    <item name="tag_screen_reader_focusable" type="id"/>
+    <item name="tag_state_description" type="id"/>
+    <item name="tag_transition_group" type="id"/>
+    <item name="tag_unhandled_key_event_manager" type="id"/>
+    <item name="tag_unhandled_key_listeners" type="id"/>
+    <item name="tag_window_insets_animation_callback" type="id"/>
+    <item name="text" type="id"/>
+    <item name="text2" type="id"/>
+    <item name="title" type="id"/>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="absent_card_failed">Card absent failed</string>
+    <string name="absent_card_succeed">Card is absent</string>
+    <string name="action_package_name">com.cloudpos.apidemo.action.</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">APIDemoByKotlin</string>
+    <string name="auto_only_pref" translatable="false">auto_only_pref</string>
+    <string name="auto_test_pref" translatable="false">auto_test_pref</string>
+    <string name="call_get_fingerprint">Please call GetFingerPrint method</string>
+    <string name="clean_log">Clean Log</string>
+    <string name="copy_db_pref" translatable="false">copy_db_pref</string>
+    <string name="copy_db_summary">输出数据库</string>
+    <string name="copy_db_title">输出数据库</string>
+    <string name="db_pref" translatable="false">db_pref</string>
+    <string name="db_summary">Database settings</string>
+    <string name="db_title">Database settings</string>
+    <string name="decrypt_data">Input cipher text (plain text is 123456)</string>
+    <string name="decrypt_failed">decrypt failed!</string>
+    <string name="decrypt_succeed">decrypt success!</string>
+    <string name="defalut_copy_db_path">/mnt/sdcard1</string>
+    <string name="del_db_pref" translatable="false">del_db_pref</string>
+    <string name="del_db_summary">Clear database</string>
+    <string name="del_db_title">Clear database</string>
+    <string name="deleteCertificate_failed">deleteCertificate failed!</string>
+    <string name="deleteCertificate_succeed">deleteCertificate success!</string>
+    <string name="deleteKeyPair_failed">deleteKeyPair failed!</string>
+    <string name="deleteKeyPair_succeed">deleteKeyPair success!</string>
+    <string name="encrypt_failed">encrypt failed!</string>
+    <string name="encrypt_succeed">encrypt success!</string>
+    <string name="enroll_timeout">Scan fingerprint timeout</string>
+    <string name="find_card_failed">Find card failed</string>
+    <string name="find_card_succeed">Find card succeed</string>
+    <string name="generateCSR_failed">generateCSR failed!</string>
+    <string name="generateCSR_succeed">generateCSR success!</string>
+    <string name="generateKeyPair_failed">generateKeyPair failed!</string>
+    <string name="generateKeyPair_succeed">generateKeyPair success!</string>
+    <string name="generateRandom_failed">generateRandom failed!</string>
+    <string name="generateRandom_succeed">generateRandom success!</string>
+    <string name="getCertificate_failed">getCertificate failed!</string>
+    <string name="getCertificate_succeed">getCertificate success!</string>
+    <string name="getEncryptedUniqueCode_failed">getEncryptedUniqueCode failed!</string>
+    <string name="getEncryptedUniqueCode_succeed">getEncryptedUniqueCode success!</string>
+    <string name="getFreeSpace_failed">getFreeSpace failed!</string>
+    <string name="getFreeSpace_succeed">getFreeSpace success!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hsm_falied"> failed!</string>
+    <string name="hsm_succeed">success!</string>
+    <string name="injectPublicKeyCertificate_failed">injectPublicKeyCertificate failed!</string>
+    <string name="injectPublicKeyCertificate_succeed">injectPublicKeyCertificate success!</string>
+    <string name="injectRootCertificate_failed">injectRootCertificate failed!</string>
+    <string name="injectRootCertificate_succeed">injectRootCertificate success!</string>
+    <string name="isTampered_failed"> Already triggered</string>
+    <string name="isTampered_succeed"> Not triggered</string>
+    <string name="manu_only_pref" translatable="false">manu_only_pref</string>
+    <string name="match_fingerprint">Match fingerprint</string>
+    <string name="match_fingerprint_fail">Match fail</string>
+    <string name="match_fingerprint_result">Fingerprint match degree ：</string>
+    <string name="not_get_match">No matching fingerprints were obtained</string>
+    <string name="operation_failed">failed!</string>
+    <string name="operation_succeed">succeed!</string>
+    <string name="port_listenforread_failed">listenForRead failed</string>
+    <string name="port_listenforread_succeed">listenForRead successfully</string>
+    <string name="port_waitforread_failed">waitForRead failed</string>
+    <string name="port_waitforread_succeed">waitForRead successfully</string>
+    <string name="port_write_failed">write failed</string>
+    <string name="port_write_succeed">write successfully</string>
+    <string name="press_fingerprint">Please press your finger</string>
+    <string name="queryCertificates_failed">queryCertificates failed!</string>
+    <string name="queryCertificates_succeed">queryCertificates success!</string>
+    <string name="remove_fingerprint">Please remove your finger</string>
+    <string name="rfcard_remove_card">Please remove the card</string>
+    <string name="scan_fingerprint_fail">Scan fingerprint failed</string>
+    <string name="scan_fingerprint_first">Scan first fingerprint</string>
+    <string name="scan_fingerprint_second">Scan second fingerprint</string>
+    <string name="scan_fingerprint_success">Scan fingerprint successfully</string>
+    <string name="sign_falied">sign_failed</string>
+    <string name="sign_succeed">sign_succeed</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="test_end">Test end!</string>
+    <string name="uninstall_app">Uninstall</string>
+    <string name="waiting">please wait.</string>
+    <string name="welcome_to">Welcome to</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="Widget.Compat.NotificationActionContainer" parent=""/>
+    <style name="Widget.Compat.NotificationActionText" parent=""/>
+    <declare-styleable name="Capability">
+        <!-- Resource reference to the string array of query patterns for a custom capability. -->
+        <attr format="reference" name="queryPatterns"/>
+        <!-- Indicates whether a parameter in a capability template can only contain a matched
+             shortcut id and not an arbitrary string. -->
+        <attr format="boolean" name="shortcutMatchRequired"/>
+    </declare-styleable>
+    <declare-styleable name="ColorStateListItem">
+        <!-- Base color for this state. -->
+        <attr name="android:color"/>
+        <!-- Alpha multiplier applied to the base color. -->
+        <attr format="float" name="alpha"/>
+        <attr name="android:alpha"/>
+    </declare-styleable>
+    <declare-styleable name="FontFamily">
+        <!-- The authority of the Font Provider to be used for the request. -->
+        <attr format="string" name="fontProviderAuthority"/>
+        <!-- The package for the Font Provider to be used for the request. This is used to verify
+        the identity of the provider. -->
+        <attr format="string" name="fontProviderPackage"/>
+        <!-- The query to be sent over to the provider. Refer to your font provider's documentation
+        on the format of this string. -->
+        <attr format="string" name="fontProviderQuery"/>
+        <!-- The sets of hashes for the certificates the provider should be signed with. This is
+        used to verify the identity of the provider, and is only required if the provider is not
+        part of the system image. This value may point to one list or a list of lists, where each
+        individual list represents one collection of signature hashes. Refer to your font provider's
+        documentation for these values. -->
+        <attr format="reference" name="fontProviderCerts"/>
+        <!-- The strategy to be used when fetching font data from a font provider in XML layouts.
+        This attribute is ignored when the resource is loaded from code, as it is equivalent to the
+        choice of API between {@link
+    androidx.core.content.res.ResourcesCompat#getFont(Context, int)} (blocking) and
+        {@link
+    androidx.core.content.res.ResourcesCompat#getFont(Context, int, FontCallback, Handler)}
+        (async). -->
+        <attr name="fontProviderFetchStrategy">
+            <!-- The blocking font fetch works as follows.
+              First, check the local cache, then if the requested font is not cached, request the
+              font from the provider and wait until it is finished.  You can change the length of
+              the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
+              default typeface will be used instead. -->
+            <enum name="blocking" value="0"/>
+            <!-- The async font fetch works as follows.
+              First, check the local cache, then if the requeted font is not cached, trigger a
+              request the font and continue with layout inflation. Once the font fetch succeeds, the
+              target text view will be refreshed with the downloaded font data. The
+              fontProviderFetchTimeout will be ignored if async loading is specified. -->
+            <enum name="async" value="1"/>
+        </attr>
+        <!-- The length of the timeout during fetching. -->
+        <attr format="integer" name="fontProviderFetchTimeout">
+            <!-- A special value for the timeout. In this case, the blocking font fetching will not
+              timeout and wait until a reply is received from the font provider. -->
+            <enum name="forever" value="-1"/>
+        </attr>
+        <!-- Provides the system font family name to check before downloading the font. For
+        example if the fontProviderQuery asked for "Sans Serif", it is possible to define
+        fontProviderSystemFontFamily as "sans-serif" to tell the system to use "sans-serif" font
+        family if it exists on the system. -->
+        <attr format="string" name="fontProviderSystemFontFamily"/>
+    </declare-styleable>
+    <declare-styleable name="FontFamilyFont">
+        <!-- The style of the given font file. This will be used when the font is being loaded into
+         the font stack and will override any style information in the font's header tables. If
+         unspecified, the value in the font's header tables will be used. -->
+        <attr name="fontStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+        </attr>
+        <!-- The reference to the font file to be used. This should be a file in the res/font folder
+         and should therefore have an R reference value. E.g. @font/myfont -->
+        <attr format="reference" name="font"/>
+        <!-- The weight of the given font file. This will be used when the font is being loaded into
+         the font stack and will override any weight information in the font's header tables. Must
+         be a positive number, a multiple of 100, and between 100 and 900, inclusive. The most
+         common values are 400 for regular weight and 700 for bold weight. If unspecified, the value
+         in the font's header tables will be used. -->
+        <attr format="integer" name="fontWeight"/>
+        <!-- The variation settings to be applied to the font. The string should be in the following
+         format: "'tag1' value1, 'tag2' value2, ...". If the default variation settings should be
+         used, or the font used does not support variation settings, this attribute needs not be
+         specified. -->
+        <attr format="string" name="fontVariationSettings"/>
+        <!-- The index of the font in the tcc font file. If the font file referenced is not in the
+        tcc format, this attribute needs not be specified. -->
+        <attr format="integer" name="ttcIndex"/>
+        <!-- References to the framework attrs -->
+        <attr name="android:fontStyle"/>
+        <attr name="android:font"/>
+        <attr name="android:fontWeight"/>
+        <attr name="android:fontVariationSettings"/>
+        <attr name="android:ttcIndex"/>
+    </declare-styleable>
+    <declare-styleable name="GradientColor">
+        <!-- Start color of the gradient. -->
+        <attr name="android:startColor"/>
+        <!-- Optional center color. -->
+        <attr name="android:centerColor"/>
+        <!-- End color of the gradient. -->
+        <attr name="android:endColor"/>
+        <!-- Type of gradient. The default type is linear. -->
+        <attr name="android:type"/>
+
+        <!-- Only applied to RadialGradient-->
+        <!-- Radius of the gradient, used only with radial gradient. -->
+        <attr name="android:gradientRadius"/>
+
+        <!-- Only applied to SweepGradient / RadialGradient-->
+        <!-- X coordinate of the center of the gradient within the path. -->
+        <attr name="android:centerX"/>
+        <!-- Y coordinate of the center of the gradient within the path. -->
+        <attr name="android:centerY"/>
+
+        <!-- LinearGradient specific -->
+        <!-- X coordinate of the start point origin of the gradient.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:startX"/>
+        <!-- Y coordinate of the start point of the gradient within the shape.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:startY"/>
+        <!-- X coordinate of the end point origin of the gradient.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:endX"/>
+        <!-- Y coordinate of the end point of the gradient within the shape.
+             Defined in same coordinates as the path itself -->
+        <attr name="android:endY"/>
+
+        <!-- Defines the tile mode of the gradient. SweepGradient doesn't support tiling. -->
+        <attr name="android:tileMode"/>
+    </declare-styleable>
+    <declare-styleable name="GradientColorItem">
+        <!-- The offset (or ratio) of this current color item inside the gradient.
+             The value is only meaningful when it is between 0 and 1. -->
+        <attr name="android:offset"/>
+        <!-- The current color for the offset inside the gradient. -->
+        <attr name="android:color"/>
+    </declare-styleable>
+</resources>

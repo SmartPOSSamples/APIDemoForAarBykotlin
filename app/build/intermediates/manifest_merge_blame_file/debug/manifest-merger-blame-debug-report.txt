@@ -1,0 +1,143 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cloudpos.apidemoforunionpaycloudpossdk"
+4    android:versionCode="123"
+5    android:versionName="1.2.4_V1.5.3.081" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml
+10
+11    <!-- WRITE_EXTERNAL_STORAGE -->
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:6:5-81
+12-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:6:22-78
+13
+14    <!-- HDMI-CLOUDPOS_CLONESCREEN -->
+15    <uses-permission android:name="android.permission.CLOUDPOS_CLONESCREEN" />
+15-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:10:5-79
+15-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:10:22-76
+16    <!-- D3 ADAPTER -->
+17    <uses-permission android:name="android.permission.CLOUDPOS_PRINTER_ADAPTER" />
+17-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:12:5-83
+17-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:12:22-80
+18    <!-- CLOUDPOS_PRINTER -->
+19    <uses-permission android:name="android.permission.CLOUDPOS_PRINTER" />
+19-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:14:5-75
+19-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:14:22-72
+20    <!-- MSR -->
+21    <uses-permission android:name="android.permission.CLOUDPOS_MSR" />
+21-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:16:5-70
+21-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:16:22-68
+22    <!-- Contactless card -->
+23    <uses-permission android:name="android.permission.CLOUDPOS_CONTACTLESS_CARD" />
+23-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:18:5-83
+23-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:18:22-81
+24    <!-- SmartCard -->
+25    <uses-permission android:name="android.permission.CLOUDPOS_SMARTCARD" />
+25-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:20:5-76
+25-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:20:22-74
+26    <!-- Serial port -->
+27    <uses-permission android:name="android.permission.CLOUDPOS_SERIAL" />
+27-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:22:5-74
+27-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:22:22-71
+28    <!-- LED -->
+29    <uses-permission android:name="android.permission.CLOUDPOS_LED" />
+29-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:24:5-71
+29-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:24:22-68
+30
+31    <!-- CLOUDPOS_CUSTOMER_DISPLAY -->
+32    <uses-permission android:name="android.permission.CLOUDPOS_CUSTOMER_DISPLAY" />
+32-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:27:5-84
+32-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:27:22-81
+33
+34    <!-- Pinpad -->
+35    <uses-permission android:name="android.permission.CLOUDPOS_PIN_GET_PIN_BLOCK" />
+35-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:30:5-84
+35-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:30:22-82
+36    <uses-permission android:name="android.permission.CLOUDPOS_PIN_MAC" />
+36-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:31:5-75
+36-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:31:22-72
+37    <uses-permission android:name="android.permission.CLOUDPOS_PIN_ENCRYPT_DATA" />
+37-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:32:5-83
+37-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:32:22-81
+38    <uses-permission android:name="android.permission.CLOUDPOS_PIN_UPDATE_USER_KEY" />
+38-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:33:5-86
+38-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:33:22-84
+39    <uses-permission android:name="android.permission.CLOUDPOS_PIN_UPDATE_MASTER_KEY" />
+39-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:34:5-88
+39-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:34:22-86
+40
+41    <!-- Chinese ID -->
+42    <uses-permission android:name="android.permission.CLOUDPOS_IDCard" />
+42-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:37:5-73
+42-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:37:22-71
+43    <!-- ACCESS_NETWORK_STATE -->
+44    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+44-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:39:5-78
+44-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:39:22-76
+45    <!-- INTERNET -->
+46    <uses-permission android:name="android.permission.INTERNET" />
+46-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:41:5-67
+46-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:41:22-64
+47
+48    <!-- CLOUDPOS_MONEYBOX -->
+49    <uses-permission android:name="android.permission.CLOUDPOS_MONEYBOX" />
+49-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:44:5-75
+49-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:44:22-73
+50    <!-- CLOUDPOS_FINGERPRINT -->
+51    <uses-permission android:name="android.permission.CLOUDPOS_FINGERPRINT" />
+51-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:46:5-78
+51-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:46:22-76
+52    <!-- CLOUDPOS_SIGNATURE -->
+53    <uses-permission android:name="android.permission.CLOUDPOS_SIGNATURE" />
+53-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:48:5-76
+53-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:48:22-74
+54    <!-- CLOUDPOS_SAFE_MODULE -->
+55    <uses-permission android:name="android.permission.CLOUDPOS_SAFE_MODULE" />
+55-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:50:5-79
+55-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:50:22-76
+56    <!-- SYSTEM_ALERT_WINDOW -->
+57    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+57-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:52:5-78
+57-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:52:22-75
+58
+59    <application
+59-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:53:5-68:19
+60        android:name="com.cloudpos.androidmvcmodel.MainApplication"
+60-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:54:9-68
+61        android:allowBackup="true"
+61-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:55:9-35
+62        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+62-->[androidx.core:core:1.6.0] /home/jeff/.gradle/caches/transforms-2/files-2.1/9656afbb6bfac7c4743d6f843cfcdad6/core-1.6.0/AndroidManifest.xml:24:18-86
+63        android:debuggable="true"
+64        android:icon="@drawable/ic_launcher"
+64-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:56:9-45
+65        android:label="@string/app_name"
+65-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:57:9-41
+66        android:theme="@style/AppTheme" >
+66-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:58:9-40
+67        <activity
+67-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:59:9-67:20
+68            android:name="com.cloudpos.androidmvcmodel.MainActivity"
+68-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:60:13-69
+69            android:exported="true"
+69-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:61:46-69
+70            android:label="@string/app_name" >
+70-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:61:13-45
+71            <intent-filter>
+71-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:62:13-66:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:63:17-69
+72-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:63:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:65:17-77
+74-->/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/src/main/AndroidManifest.xml:65:27-74
+75            </intent-filter>
+76        </activity>
+77    </application>
+78
+79</manifest>

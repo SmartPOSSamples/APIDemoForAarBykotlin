@@ -1,0 +1,4 @@
+#Tue Apr 02 14:28:13 CST 2024
+base.0=/home/jeff/Downloads/APIDemoForAarBykotlin/APIDemoForAarBykotlin/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
