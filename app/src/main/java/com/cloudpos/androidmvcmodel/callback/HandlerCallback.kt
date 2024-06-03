@@ -8,7 +8,7 @@ import com.cloudpos.androidmvcmodel.helper.LogHelper
 
 class HandlerCallback
 /**
- * 将信息输出到显示屏上
+ * Output information to the display
  */(private val context: Context, private val txtResult: TextView) : Handler.Callback {
     override fun handleMessage(msg: Message): Boolean {
         when (msg.what) {

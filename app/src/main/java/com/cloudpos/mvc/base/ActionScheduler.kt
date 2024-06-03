@@ -19,7 +19,7 @@ class ActionScheduler : Thread() {
                     mContext = mActionQueue.take()
                     service.submit(mContext)
                 } catch (var3: Exception) {
-                    Logger.error("调度器发生错误", var3)
+                    Logger.error("Scheduler error occurred", var3)
                 }
             }
         }
