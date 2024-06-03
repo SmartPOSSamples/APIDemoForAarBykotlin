@@ -50,7 +50,7 @@ public class CAController {
         	X509Certificate cert = issueX509V3Certificate(keyPair, rootCert, csr, beginDate, endDate);
         	if(cert != null){
         		pubCertData = CAUtils.getInstance().x509ConvertPem(context, cert);
-        		Log.e(TAG, "成功获得公钥证书 : " + new String (pubCertData));
+        		Log.e(TAG, "Successfully obtained public key certificate:" + new String (pubCertData));
         	}
 		} catch (InvalidKeyException e) {
 			e.printStackTrace();
@@ -81,22 +81,22 @@ public class CAController {
 		return null;
 	}
 	/**
-     * 用公钥加密 
+     * Encrypt with public key
  
-     * 每次加密的字节数，不能超过密钥的长度值减去11
+     * The number of bytes encrypted each time cannot exceed the length value of the key minus 11
      * 
      * @param data
-     *            需加密数据的byte数据
+     *            Byte data of data to be encrypted
      * @param pubKey
-     *            公钥
-     * @return 加密后的byte型数据
+     *            public key
+     * @return Encrypted byte data
      */
     public byte[] encryptData(byte[] data, PublicKey publicKey) {
         try {
             Cipher cipher = Cipher.getInstance("RSA");
-            // 编码前设定编码方式及密钥
+            // Set the encoding method and key before encoding
             cipher.init(Cipher.ENCRYPT_MODE, publicKey);
-            // 传入编码数据并返回编码结果
+            // Pass in the encoding data and return the encoding result
             return cipher.doFinal(data);
         } catch (Exception e) {
             e.printStackTrace();
@@ -105,11 +105,11 @@ public class CAController {
     }
     
     /**
-     * 用私钥解密
+     * Decrypt with private key
      * @param encryptedData
-     *            经过encryptedData()加密返回的byte数据
+     *            The byte data returned after being encrypted by encryptedData()
      * @param privateKey
-     *            私钥
+     *            private key
      * @return
      */
     public  byte[] decryptData(byte[] encryptedData, PrivateKey privateKey){

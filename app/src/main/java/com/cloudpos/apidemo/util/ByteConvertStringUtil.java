@@ -8,7 +8,7 @@ import java.util.Scanner;
  * */
 public class ByteConvertStringUtil {
 	/**
-	 *  将byte转换成int，然后利用Integer.toHexString(int)来转换成16进制字符串。
+	 *  Convert byte to int, and then use Integer.toHexString(int) to convert it to a hexadecimal string.
 	 *  @param src byte[] data  
 	 *  @param hex string  
 	 *  

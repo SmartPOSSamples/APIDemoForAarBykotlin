@@ -92,7 +92,7 @@ class HSMModel : ActionModel() {
             val length = `in`.available()
             val bufCert = ByteArray(length)
             `in`.read(bufCert)
-            Log.e(Eth0Controller.APP_TAG, "注入证书：文件名 :" + "testcase_comm_true.crt" + "  注入别名：" + "testcase_comm_true")
+            Log.e(Eth0Controller.APP_TAG, "Inject certificate: filename:" + "testcase_comm_true.crt" + "  Inject alias:" + "testcase_comm_true")
             //            byte[] bufcert = generatePublicKeyCertificate(mContext);
             val issuccess2 = device!!.injectRootCertificate(HSMDevice.CERT_TYPE_COMM_ROOT, ALIAS_COMM_KEY, bufCert, HSMDevice.CERT_FORMAT_PEM)
             if (issuccess2 == true) {

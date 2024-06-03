@@ -74,7 +74,7 @@ public class CAUtils {
 		return keyPair ;
 	}
 	
-//	产生根证书
+//	Generate root certificate
 	private boolean createTerminalKeyPair(Context context){
 		String cn = "testing_java";
 		String dnStr = "CN=" + cn + ",OU=AndroidSoft,O=Wizarpos,C=CN,ST=Shanghai,L=Shanghai";
@@ -85,7 +85,7 @@ public class CAUtils {
 			isSuccess = CAUtils.getInstance().createRootCert(dn, snStr, CAUtils.DEFAULT_VALIDATE, context);
 		} catch (Exception e) {
 			isSuccess = false;
-			Log.e("APP", "无法产生终端私钥");
+			Log.e("APP", "Unable to generate terminal private key");
 			e.printStackTrace();
 		}
 		if(isSuccess){

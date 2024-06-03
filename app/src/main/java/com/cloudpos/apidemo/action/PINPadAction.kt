@@ -36,7 +36,7 @@ class PINPadAction : ActionModel() {
 
     fun showText(param: Map<String?, Any?>?, callback: ActionCallback?) {
         try {
-            device!!.showText(0, "密码余额元")
+            device!!.showText(0, "Password balance yuan")
             device!!.showText(1, "show test")
             sendSuccessLog(mContext!!.getString(R.string.operation_succeed))
         } catch (e: DeviceException) {
