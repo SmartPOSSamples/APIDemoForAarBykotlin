@@ -6,9 +6,9 @@ import android.text.TextUtils;
 public class StringUtility
 {
     /**
-     * @author 杨工
-     * @param strInput 传入String
-     * @return boolean 传入的String是否为空
+     * @author Yang Gong
+     * @param strInput passes in String
+     * @return boolean whether the incoming String is empty
      */
     static public boolean isEmpty(String strInput)
     {
@@ -73,14 +73,14 @@ public class StringUtility
     }
 
     /**
-     * @author 杨工
+     * @author Yang Gong
      * @param String strInput
      * @param byte[] arryByte
      * @return int
      */
     static public int StringToByteArray(String strInput, byte[] arryByte)
     {
-        strInput = strInput.trim();// 清除空白
+        strInput = strInput.trim();// remove whitespace
         String[] arryString = strInput.split(" ");
         if (arryByte.length < arryString.length)
             return -1;
@@ -125,9 +125,9 @@ public class StringUtility
 
     /**
      * @author john.li
-     * @param String str 传入字符串
-     * @param String reg 按照哪种方式或哪个字段拆分
-     * @return Stringp[] 返回拆分后的数组。
+     * @param String str passed in string
+     * @param String reg according to which way or which field to split
+     * @return Stringp[] returns the split array.
      */
     static public String[] spiltStrings(String str, String reg) {
         String[] arrayStr = str.split(reg);

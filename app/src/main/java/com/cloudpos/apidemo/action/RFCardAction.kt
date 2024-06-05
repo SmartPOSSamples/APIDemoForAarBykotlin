@@ -14,8 +14,7 @@ class RFCardAction : ActionModel() {
     private var device: RFCardReaderDevice? = null
     var rfCard: Card? = null
 
-    /*zh:需要根据实际情况调整索引.
-     *en:The index needs to be adjusted according to the actual situation.
+    /* The index needs to be adjusted according to the actual situation.
      * */
     // mifare card : 2-63,012;
     //ultralight card : 0,4-63

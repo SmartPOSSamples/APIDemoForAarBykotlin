@@ -14,18 +14,18 @@
     <string name="welcome_to">Welcome to</string>
 
     <!-- Actions -->
-    <string name="operation_succeed">succeed!</string>
+    <string name="operation_succeed">success!</string>
     <string name="operation_failed">failed!</string>
 
     <!-- RFCardAction -->
-    <string name="find_card_succeed">Find card succeed</string>
+    <string name="find_card_succeed">Find card success</string>
     <string name="find_card_failed">Find card failed</string>
     <string name="absent_card_succeed">Card is absent</string>
     <string name="absent_card_failed">Card absent failed</string>
     <string name="rfcard_remove_card">Please remove the card</string>
 
     <!-- FingerPrintAction -->
-    <string name="scan_fingerprint_success">Scan fingerprint successfully</string>
+    <string name="scan_fingerprint_success">Scan fingerprint success</string>
     <string name="scan_fingerprint_fail">Scan fingerprint failed</string>
     <string name="scan_fingerprint_first">Scan first fingerprint</string>
     <string name="scan_fingerprint_second">Scan second fingerprint</string>
@@ -40,24 +40,24 @@
 
 
     <!-- serialport-->
-    <string name="port_waitforread_succeed">waitForRead successfully</string>
+    <string name="port_waitforread_succeed">waitForRead success</string>
     <string name="port_waitforread_failed">waitForRead failed</string>
 
-    <string name="port_listenforread_succeed">listenForRead successfully</string>
+    <string name="port_listenforread_succeed">listenForRead success</string>
     <string name="port_listenforread_failed">listenForRead failed</string>
 
-    <string name="port_write_succeed">write successfully</string>
+    <string name="port_write_succeed">write success</string>
     <string name="port_write_failed">write failed</string>
 
     <!-- signature -->
-    <string name="sign_succeed">sign_succeed</string>
+    <string name="sign_succeed">sign_success</string>
     <string name="sign_falied">sign_failed</string>
 
     <!-- hsm -->
     <string name="hsm_succeed">success!</string>
-    <string name="hsm_falied"> failed!</string>
-    <string name="isTampered_failed"> Already triggered</string>
-    <string name="isTampered_succeed"> Not triggered</string>
+    <string name="hsm_falied">failed!</string>
+    <string name="isTampered_failed">Already triggered</string>
+    <string name="isTampered_succeed">Not triggered</string>
     <string name="generateKeyPair_succeed">generateKeyPair success!</string>
     <string name="generateKeyPair_failed">generateKeyPair failed!</string>
     <string name="injectPublicKeyCertificate_succeed">injectPublicKeyCertificate success!</string>
@@ -66,8 +66,8 @@
     <string name="injectRootCertificate_failed">injectRootCertificate failed!</string>
     <string name="deleteCertificate_succeed">deleteCertificate success!</string>
     <string name="deleteCertificate_failed">deleteCertificate failed!</string>
-    <string name="decrypt_failed">decrypt failed!</string>
     <string name="decrypt_succeed">decrypt success!</string>
+    <string name="decrypt_failed">decrypt failed!</string>
     <string name="deleteKeyPair_succeed">deleteKeyPair success!</string>
     <string name="deleteKeyPair_failed">deleteKeyPair failed!</string>
     <string name="encrypt_succeed">encrypt success!</string>
@@ -80,8 +80,8 @@
     <string name="generateRandom_failed">generateRandom failed!</string>
     <string name="getFreeSpace_succeed">getFreeSpace success!</string>
     <string name="getFreeSpace_failed">getFreeSpace failed!</string>
-    <string name="generateCSR_failed">generateCSR failed!</string>
     <string name="generateCSR_succeed">generateCSR success!</string>
+    <string name="generateCSR_failed">generateCSR failed!</string>
     <string name="getCertificate_succeed">getCertificate success!</string>
     <string name="getCertificate_failed">getCertificate failed!</string>
     <string name="decrypt_data">Input cipher text (plain text is 123456)</string>
@@ -98,8 +98,8 @@
     <string name="del_db_summary">Clear database</string>
 
     <string name="copy_db_pref" translatable="false">copy_db_pref</string>
-    <string name="copy_db_title">输出数据库</string>
-    <string name="copy_db_summary">输出数据库</string>
+    <string name="copy_db_title">Output database</string>
+    <string name="copy_db_summary">Output database</string>
     <string name="defalut_copy_db_path">/mnt/sdcard1</string>
 
     <string name="waiting">please wait.</string>

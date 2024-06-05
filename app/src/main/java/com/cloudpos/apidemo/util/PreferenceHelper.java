@@ -24,9 +24,9 @@ public class PreferenceHelper {
 
     private Context context;
 
-    // 当前事件的处理方式
+    // How to handle the current event
     public static final String CURRENT_NAME = "current_item_name";
-    // ssl双向测试
+    // ssl two-way test
     public static final String KEY_SSL_IP = "ssl_url";
 
     private PreferenceHelper(Context context) {

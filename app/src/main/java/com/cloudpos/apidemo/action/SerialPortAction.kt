@@ -13,7 +13,7 @@ import com.cloudpos.serialport.SerialPortDevice
 import com.cloudpos.serialport.SerialPortOperationResult
 
 /**
- * create by rf.w 19-8-7下午3:23
+ * create by rf.w 19-8-7 3:23PM
  */
 class SerialPortAction : ActionModel() {
     private var device: SerialPortDevice? = null

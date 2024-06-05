@@ -11,7 +11,7 @@ import com.cloudpos.sdk.util.SystemUtil
 import java.util.*
 
 /**
- * create by rf.w 19-2-28上午10:24
+ * create by rf.w 19-2-28 10:24AM
  */
 class IsoFingerPrintAction : ActionModel() {
     private var device: FingerprintDevice? = null

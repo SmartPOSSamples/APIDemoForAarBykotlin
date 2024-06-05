@@ -90,9 +90,9 @@ class PrinterAction : ActionModel() {
                             "IAD:07010103602002010A01000000000005DD79CB" +
                             "TermCap:EOE1C8" +
                             "CARD HOLDER SIGNATURE" +
-                            "I ACKNOWLEDGE SATISFACTORY RECEIPT OF RELATIVE GOODS/SERVICE" +
-                            "I ACKNOWLEDGE SATISFACTORY RECEIPT OF RELATIVE GOODS/SERVICE" +
-                            "I ACKNOWLEDGE SATISFACTORY RECEIPT OF RELATIVE GOODS/SERVICE" +
+                            "I ACKNOWLEDGE SATISFACTORY RECEIPT OF RELATIVE GOODS/SERVICES" +
+                            "I ACKNOWLEDGE SATISFACTORY RECEIPT OF RELATIVE GOODS/SERVICES" +
+                            "I ACKNOWLEDGE SATISFACTORY RECEIPT OF RELATIVE GOODS/SERVICES" +
                             "" +
                             "Demo receipts,do not sign!" +
                             "" +

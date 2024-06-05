@@ -162,8 +162,8 @@ class MainActivity : Activity(), OnItemClickListener {
     }
 
     /**
-     * 显示Introduction信息<br></br>
-     * 如果isMain == true,则隐藏,否则显示
+     * Show Introduction information<br></br>
+     * If isMain == true, hide, otherwise display
      */
     private fun displayIntroduction() {
 //        if (txtIntroduction != null) {

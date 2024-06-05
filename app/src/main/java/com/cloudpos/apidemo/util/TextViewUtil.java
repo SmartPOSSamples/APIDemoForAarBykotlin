@@ -52,15 +52,15 @@ public class TextViewUtil {
 		// H = 540;
 		// }
 		final int scrollAmount = text.getLayout().getLineTop(text.getLineCount()) - H;
-		Log.e("nihao", "wo hao ma" + "LineCount()):" + text.getLayout().getLineTop(text.getLineCount()) + "text.getHeight():" + text.getHeight());
+		Log.e("hello", "Hello World!" + "LineCount()):" + text.getLayout().getLineTop(text.getLineCount()) + "text.getHeight():" + text.getHeight());
 		// if there is no need to scroll, scrollAmount will be <=0
 		if (scrollAmount > 0) {
 			text.scrollTo(0, scrollAmount);
-			Log.e("nihao", "wo hao ma" + "scrollAmount:" + scrollAmount + "text.getHeight():" + text.getHeight());
-			// text.scrollBy(0, 30);//我错了吗？
+			Log.e("hello", "Hello World!" + "scrollAmount:" + scrollAmount + "text.getHeight():" + text.getHeight());
+			// text.scrollBy(0, 30);//Am I wrong
 		} else {
 			text.scrollTo(0, 0);
-			Log.e("nihao", "wo hao");
+			Log.e("hello", "hello world");
 			// text.setScrollY(text.getScrollY()+text.getLineHeight());
 		}
 
